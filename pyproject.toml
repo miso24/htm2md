@@ -5,6 +5,8 @@ description = "convert html to markdown"
 readme = "README.rst"
 authors = ["miso <green-24@outlook.jp>"]
 license = "MIT"
+homepage = "https://github.com/miso24"
+repository = "https://github.com/miso24/htm2md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
