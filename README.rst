@@ -12,9 +12,9 @@ Demo
   import htm2md
 
   # convert html to markdown
-  md = htm2md.convert("<p>This is <a href='https://example.com'>example</a>.</p>")
+  md = htm2md.convert("<p>This is an <a href='https://example.com'>example</a>.</p>")
   
-  # output: This is [example](https://example.com).
+  # output: This is an [example](https://example.com).
   print(md)
 
 License
