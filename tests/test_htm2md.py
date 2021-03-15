@@ -5,10 +5,6 @@ import pytest
 from htm2md import __version__, convert
 
 
-def test_version():
-    assert __version__ == "0.1.0"
-
-
 @pytest.fixture(params=["simple", "complex"])
 def data(request):
     data_dir = Path(request.fspath.dirname) / "data"
