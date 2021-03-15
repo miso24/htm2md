@@ -1,4 +1,4 @@
-.PHONY test black isort mypy
+.PHONY: test black isort mypy
 
 CMD:=poetry run
 
