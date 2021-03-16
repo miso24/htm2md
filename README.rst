@@ -4,8 +4,16 @@ htm2md
 
 htm2md is a Python library to convert html to markdown.
 
-Demo
-====
+Installation
+============
+
+.. sourcecode::
+
+  pip install htm2md
+
+
+Usage
+=====
 
 .. sourcecode:: python
 
